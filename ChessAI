@@ -461,6 +461,7 @@ def main():
     over = False
     dificulty = 1
     depth = (2 * dificulty) - 1
+    print("Moves must be made in the format xy xy, where x is the column and y is the row. Ex: e2 e4 moves the piece on e2 to e4, if the move is valid")
     while not over:
         positions = []
         oponent_positions = []
